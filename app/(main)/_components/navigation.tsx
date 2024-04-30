@@ -28,7 +28,7 @@ import {
 } from "@/components/ui/popover";
 import { TrashBox } from "./trash-box";
 
-const navigation = () => {
+const Navigation = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const Icon = isCollapsed ? ChevronRightIcon : ChevronLeftIcon;
   const create = useMutation(api.documents.create);
@@ -159,4 +159,4 @@ const navigation = () => {
     </>
   );
 };
-export default navigation;
+export default Navigation;
