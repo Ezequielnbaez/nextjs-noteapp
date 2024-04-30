@@ -1,4 +1,4 @@
-import { Link } from "@/components/typography/link";
+//import { Link } from "@/components/typography/link";
 import { Component, ReactNode } from "react";
 
 // NOTE: Once you get Clerk working you can remove this error boundary
@@ -31,9 +31,9 @@ export class ErrorBoundary extends Component<
             {clerkDashboardUrl ? (
               <p>
                 You can find it at{" "}
-                <Link href={clerkDashboardUrl} target="_blank">
+                <p>
                   {clerkDashboardUrl}
-                </Link>
+                </p>
               </p>
             ) : null}
             <p className="pl-8 text-muted-foreground">Raw error: {errorText}</p>
