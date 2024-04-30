@@ -1,4 +1,3 @@
-import { Code } from "@/components/typography/code";
 import { Link } from "@/components/typography/link";
 import { Component, ReactNode } from "react";
 
@@ -24,10 +23,10 @@ export class ErrorBoundary extends Component<
           <>
             <p>
               Add{" "}
-              <Code>
+              <p>
                 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY={'"<your publishable key>"'}
-              </Code>{" "}
-              to the <Code>.env.local</Code> file
+              </p>{" "}
+              to the <span>.env.local</span> file
             </p>
             {clerkDashboardUrl ? (
               <p>
