@@ -1,6 +1,6 @@
-import { FakeParagraphs } from "@/components/helpers/FakeParagraphs";
-import { FakeWordList } from "@/components/helpers/FakeWordList";
-import { Paragraph } from "@/components/layout/paragraph";
+import { FakeParagraphs } from "../../../components/helpers/FakeParagraphs";
+import { FakeWordList } from "../../../components/helpers/FakeWordList";
+import { Paragraph } from "../../../components/layout/paragraph";
 
 // This is a simpler implementation of the
 // `sticky-sides-flex-content` layout,
