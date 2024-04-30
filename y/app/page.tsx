@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import {
   Authenticated,
   Unauthenticated,
@@ -8,11 +8,11 @@ import {
   useQuery,
 } from "convex/react";
 import { api } from "@/convex/_generated/api";
-import { Code } from "@/components/typography/code";
-import { Link } from "@/components/typography/link";
+import { Code } from "../components/typography/code";
+import { Link } from "../components/typography/link";
 import { SignInButton, SignUpButton, UserButton } from "@clerk/clerk-react";
-import { StickyHeader } from "@/components/layout/sticky-header";
-import { Skeleton } from "@/components/ui/skeleton";
+import { StickyHeader } from "../components/layout/sticky-header";
+import { Skeleton } from "../components/ui/skeleton";
 
 export default function Home() {
   return (
