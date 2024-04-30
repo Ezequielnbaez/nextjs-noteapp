@@ -1,4 +1,4 @@
-import { Code } from "@/components/typography/code"
+import { Code } from "@/components/typography/code";
 import { Link } from "@/components/typography/link";
 import { Component, ReactNode } from "react";
 
